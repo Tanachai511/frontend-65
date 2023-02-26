@@ -1,0 +1,159 @@
+.input-search{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nav-brand{
+    font-size: 30px;
+}
+
+#nav-brand{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #80E0FF;
+}
+
+.input{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: solid 1px #80E0FF;
+    border-radius: 32px;
+    width: 657px;
+    align-items: center;
+}
+
+#input{
+    width: 545px;
+    height: 20px;
+    border: none;
+    margin-left: 20px;
+    outline: #80E0FF;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input::placeholder{
+    color: #80E0FF;
+}
+
+#bi{
+    color: #FFF;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#btn{
+    background-color: #80E0FF;
+    outline: none;
+    border: none;
+    color: #FFF;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 35px;
+    width:150px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.icon{
+    display: flex;
+}
+
+.img{
+    margin: 10%;
+    cursor: pointer;
+}
+
+.flexbox{
+    background-color: #F4F4F4;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    height: 1000px;
+    padding-top: 100px;
+}
+
+#item-1{
+    display: block;
+    box-sizing: border-box;
+    width: 25%;
+    padding-left: 100px;
+    padding-right: 20px;
+}
+
+#item-2{
+    display: block;
+    box-sizing: border-box;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+#item-3{
+    display: block;
+    box-sizing: border-box;
+    width: 25%;
+    padding-left: 10px;
+    padding-right: 80px;
+}
+
+.content{
+    background-color: #FFF;
+    padding: 16px;
+}
+
+#product1{
+    text-align: center;
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 50px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+}
+
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+
+}
+
+#product1 .pro img{
+    width: 70%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #80E0FF;
+}
+
