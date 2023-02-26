@@ -64,7 +64,7 @@ input::placeholder{
     display: flex;
 }
 
-.img{
+.img-feature{
     margin: 10%;
     cursor: pointer;
 }
@@ -74,11 +74,12 @@ input::placeholder{
     display: flex;
     box-sizing: border-box;
     flex-direction: row;
-    height: 1000px;
+    height: 832px;
     padding-top: 60px;
     font-family: 'Roboto', sans-serif;
     margin-top: 15px;
-    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #item-1{
@@ -105,6 +106,15 @@ input::placeholder{
     padding-right: 7%;
 }
 
+#item-4{
+    display: block;
+    box-sizing: border-box;
+    width: 80%;
+    padding-left: 2%px;
+    padding-right: 2%px;
+    margin-top: 5%;
+}
+
 .content{
     background-color: #FFF;
     padding: 16px;
@@ -117,6 +127,7 @@ input::placeholder{
     justify-content: center;
     box-sizing: border-box;
     margin: 4%;
+    cursor: pointer;
 }
 
 #in-item-1{
@@ -204,14 +215,43 @@ input::placeholder{
 .login{
     display: flex;
     align-items: center;
+    margin: 5%;
 }
 
 .btn-log{
-    border-radius: 16px;
+    border-radius: 20px;
     background-color: #80E0FF;
     margin-left: 25%;
     margin-right: 25%;
+    margin-bottom: 5%;
     color: #FFF;
     border: solid 1px #80E0FF;
-    width: 45%;
+    width: 50%;
+    height: 70%;
+}
+
+.at-login{
+    display: flex;
+    justify-content: center;
+}
+
+.hr{
+    display: flex;
+    margin: 11%;
+    align-items: center;
+}
+
+#text-or{
+    font-size: 10px;    
+    padding-top: 8%;
+}
+
+#at-login .img-login{
+    cursor: pointer;
+    margin: 2%;
+}
+
+#product1 .pro .img-pro{
+    width: 40%;
+    border-radius: 20px;
 }
