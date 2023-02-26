@@ -6,14 +6,16 @@
     margin-right: 10%;
 }
 
-.nav-brand{
-    font-size: 30px;
+.font{
+    font-family: 'Roboto', sans-serif;
 }
+
 
 #nav-brand{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     color: #80E0FF;
+    font-size: 30px;
 }
 
 .input{
@@ -73,36 +75,78 @@ input::placeholder{
     box-sizing: border-box;
     flex-direction: row;
     height: 1000px;
-    padding-top: 100px;
+    padding-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    align-items: flex-start;
 }
 
 #item-1{
     display: block;
     box-sizing: border-box;
     width: 25%;
-    padding-left: 100px;
-    padding-right: 20px;
+    padding-left: 7%;
+    padding-right: 2%;
 }
 
 #item-2{
     display: block;
     box-sizing: border-box;
     width: 50%;
-    padding-left: 10px;
-    padding-right: 20px;
+    padding-left: 2%px;
+    padding-right: 2%px;
 }
 
 #item-3{
     display: block;
     box-sizing: border-box;
     width: 25%;
-    padding-left: 10px;
-    padding-right: 80px;
+    padding-left: 2%;
+    padding-right: 7%;
 }
 
 .content{
     background-color: #FFF;
     padding: 16px;
+    border-radius: 16px;
+}
+
+.in-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 4%;
+}
+
+#in-item-1{
+    display: flex;
+    padding-top: 3%;
+    padding-right: 3%;
+}
+
+#in-item-2{
+    padding-top: 3%;
+    display: flex;
+    padding-right: 14%;
+}
+
+#in-item-3{
+    padding-top: 3%;
+    display: flex;
+    padding-right: 17%;
+}
+
+#in-item-4{
+    padding-top: 3%;
+    display: flex;
+    padding-right: 20%;
+}
+
+.in-item img{
+    align-items: flex-start;
+    width: auto;
+    height: auto;
 }
 
 #product1{
@@ -157,3 +201,17 @@ input::placeholder{
     color: #80E0FF;
 }
 
+.login{
+    display: flex;
+    align-items: center;
+}
+
+.btn-log{
+    border-radius: 16px;
+    background-color: #80E0FF;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #FFF;
+    border: solid 1px #80E0FF;
+    width: 45%;
+}
