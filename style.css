@@ -1,3 +1,9 @@
+#header{
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
 .input-search{
     display: flex;
     align-items: center;
@@ -330,6 +336,7 @@ input::placeholder{
     width: 125px;
     padding: 10px;
     border-radius: 100px;
+    border: solid 1px #80E0FF;
     background: #80E0FF;
     color: #ffffff;
 }
