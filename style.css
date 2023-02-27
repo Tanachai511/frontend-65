@@ -104,7 +104,7 @@ input::placeholder{
     background-color: #F4F4F4;
     box-sizing: border-box;
     flex-direction: row;
-    height: 680px;
+    height: 750px;
     padding-top: 60px;
     font-family: 'Roboto', sans-serif;
     margin-top: 15px;
@@ -458,5 +458,4 @@ input::placeholder{
 
 #prodetails .single-sspro-size{
     display: flex;
-    
 }
